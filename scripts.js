@@ -1,86 +1,43 @@
 var editableText = document.getElementById('editableText');
+var back4AppAppId = 'ваш-идентификатор-приложения-back4app';
+var back4AppClientKey = 'ваш-клиентский-ключ-back4app';
+var back4AppClassName = 'название-класса-в-back4app';
 
-editableText.addEventListener('input', function () {
-    // Save changes to localStorage when typing
-    localStorage.setItem('editableContent', editableText.innerHTML);
-});
-
-// Load saved text from localStorage on page load
-editableText.innerHTML = localStorage.getItem('editableContent') || editableText.innerHTML;
-
-// Handle drag-and-drop
-editableText.addEventListener('dragover', function (e) {
-    e.preventDefault();
-});
-
-editableText.addEventListener('drop', function (e) {
-    e.preventDefault();
-
-    var file = e.dataTransfer.files[0];
-
-    if (file) {
-        if (file.type.startsWith('text')) {
-            // If it's a text file, read and insert the text
-            var reader = new FileReader();
-            reader.onload = function (event) {
-                var text = event.target.result;
-                insertTextAtCursor(text);
-            };
-            reader.readAsText(file);
-        } else if (file.type.startsWith('image')) {
-            // If it's an image file, insert the image
-            insertImageAtCursor(file);
+// Загрузка данных с Back4App
+function loadDataFromBack4App() {
+    fetch(`https://parseapi.back4app.com/classes/${back4AppClassName}`, {
+        headers: {
+            'X-Parse-Application-Id': back4AppAppId,
+            'X-Parse-REST-API-Key': back4AppClientKey,
         }
-
-        // Save changes to localStorage
-        localStorage.setItem('editableContent', editableText.innerHTML);
-    }
-});
-
-// Function to get the current cursor position
-function getCursorPosition() {
-    var selection = window.getSelection();
-    if (selection.rangeCount > 0) {
-        var range = selection.getRangeAt(0);
-        return range.startOffset;
-    }
-    return 0;
+    })
+    .then(response => response.json())
+    .then(data => {
+        // Используйте данные из Back4App
+        editableText.innerHTML = data.results[0].content;
+    })
+    .catch(error => console.error('Ошибка при загрузке данных:', error));
 }
 
-// Function to insert text at the current cursor position
-function insertTextAtCursor(text) {
-    var selection = window.getSelection();
-    var range = selection.getRangeAt(0);
-    range.deleteContents();
-    range.insertNode(document.createTextNode(text));
-
-    // Move the cursor after the inserted text
-    range.setStartAfter(range.endContainer);
-    range.collapse(true);
-
-    selection.removeAllRanges();
-    selection.addRange(range);
+// Сохранение данных на Back4App
+function saveDataToBack4App() {
+    var content = editableText.innerHTML;
+    fetch(`https://parseapi.back4app.com/classes/${back4AppClassName}/objectId`, {
+        method: 'PUT',
+        headers: {
+            'X-Parse-Application-Id': back4AppAppId,
+            'X-Parse-REST-API-Key': back4AppClientKey,
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ content: content }),
+    })
+    .then(response => response.json())
+    .then(data => console.log('Данные успешно сохранены:', data))
+    .catch(error => console.error('Ошибка при сохранении данных:', error));
 }
 
-// Function to insert an image at the current cursor position
-function insertImageAtCursor(file) {
-    var reader = new FileReader();
-    reader.onload = function (e) {
-        var img = document.createElement('img');
-        img.src = e.target.result;
-        img.alt = 'Inserted Image';
+// Загрузка данных при загрузке страницы
+window.addEventListener('load', loadDataFromBack4App);
 
-        var selection = window.getSelection();
-        var range = selection.getRangeAt(0);
-        range.deleteContents();
-        range.insertNode(img);
-
-        // Move the cursor after the inserted image
-        range.setStartAfter(img);
-        range.collapse(true);
-
-        selection.removeAllRanges();
-        selection.addRange(range);
-    };
-    reader.readAsDataURL(file);
-}
+// Сохранение данных при внесении изменений
+editableText.addEventListener('input', saveDataToBack4App);
