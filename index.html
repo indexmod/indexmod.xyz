@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+<!-- This is the minified production version of Parse JS -->
+<script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit me!</title>
@@ -14,7 +16,11 @@
         <p>Перетащите сюда текст или изображение</p>
     </div>
 
-    <script src="scripts.js"></script>
+    <script>
+    // Initialize Parse
+      Parse.initialize("NasKD04WDiWo6vnKtyOsYB6NBRn32FwUlWoOu0a3", "0g5haFXwLljOH7rrdirMlt2YvqR2ZTRfE76PbIXf"); //PASTE HERE YOUR Back4App APPLICATION ID AND YOUR JavaScript KEY
+      Parse.serverURL = "https://parseapi.back4app.com/";
+    </script>
 
 </body>
 
