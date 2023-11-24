@@ -1,6 +1,6 @@
 var editableText = document.getElementById('editableText');
-var back4AppAppId = 'ваш-идентификатор-приложения-back4app';
-var back4AppClientKey = 'ваш-клиентский-ключ-back4app';
+var back4AppAppId = 'NasKD04WDiWo6vnKtyOsYB6NBRn32FwUlWoOu0a3';
+var back4AppClientKey = 'sRC9zSJKl5InDno1SjQyp99QSB1H4QCchsIvWPN9';
 var back4AppClassName = 'название-класса-в-back4app';
 
 // Загрузка данных с Back4App
