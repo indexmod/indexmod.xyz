@@ -1,6 +1,6 @@
 ---
-title: 2 Skin
-permalink: 2-skin
+title: 123
+permalink: 123
 layout: default
 originlang: Rus.
 originspell: Ту-скин
@@ -13,15 +13,15 @@ othername: 2.s.k.i.n
 venue: On-line store
 founder: Loren Chkadua
 origin: a Russian
-profession: brand of temporary tattoos and accessories with worldwide shipping founded by Lorena Chkadua in 2017
-photo: Tattoos 2SKIN in collaboration with Masha Yankovskaya released a set of 9 different tattoos
-photographer: Yankovskaya х 2SKIN
+profession: brand
+photo: Tattoos
+photographer: Yankovskaya
 source: Mashayankovskaya.store
-photographerurl: http://mashayankovskaya.store
-sourceurl: http://mashayankovskaya.store
-shortname: 2SKIN
-facebook: 0
-instagram: 37700
+photographerurl: mashayankovskaya.store
+sourceurl: mashayankovskaya.store
+shortname: 123
+facebook: 1000
+instagram: 1000
 youtube: 0
 vimeo: 0
 twitter: 0
