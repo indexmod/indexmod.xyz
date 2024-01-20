@@ -5,7 +5,7 @@ exclude: true
 ---
 
 
-+ This page animation performed best in Google Chrome and Firefox
++ Идет настроечка
 
 <wrap>
 
