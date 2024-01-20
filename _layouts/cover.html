@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+{% include facebook-cover.html %}
+{% include yandex.html %}
+{% include google.html %}
+{% include meta-cover.html %}
+{% include favicon.html %}
+</head>
+<body>
+ <h1>{{ site.title }}</h1>
+<hr>
+
+{{ content }}
+
+<hr>
+
+{% include footer-1.html %}
+<div class="container">
+<a href="index"><img alt="Indexmod" src="/identity/indexmod-2018.png" style="width:auto;height:auto;border:0;"></a>
+</div>
+<p>2006 — {{ site.time | date: "%Y" }} © Indexmod</p>
+</body>
+</html>

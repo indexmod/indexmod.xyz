@@ -1,0 +1,268 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+
+.rates-top {
+	font-family: 'Monaco';
+	font-size: 2em;
+	font-weight: 100;
+	-webkit-filter: grayscale(99%);
+	filter: grayscale(99%);
+}
+.rates-top:hover {
+	font-family: 'Monaco';
+	font-size: 2em;
+	font-weight: 100;
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
+body {
+	max-width: auto;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 20%;
+	padding: 0;
+	background: white;
+}
+
+p {
+	font-family: 'Monaco', serif;
+	font-size: 1,6em;
+	line-height: 1,8em;
+	font-weight: 500;
+	color: black;
+}
+
+p.foot {
+	font-family: 'Monaco', serif;
+	font-size: 1,6em;
+	line-height: 1,8em;
+	font-weight: 500;
+}
+
+
+p.caption-name {
+	font-family: 'Monaco', serif;
+	font-size: 1,6em;
+	line-height: 1,8em;
+	font-weight: 500;
+}
+p.caption-position {
+	font-family: 'Monaco', serif;
+	font-size: 1,6em;
+	line-height: 1,8em;
+	font-weight: 500;
+}
+.rate {
+	font-weight: 500;
+	color: green;
+}
+.rate:hover {
+	font-weight: 500;
+	color: black;
+}
+h1 {
+	font-family: 'Old Standard TT', serif;
+	font-size: 1,7em;
+	font-weight: 900;
+	line-height: 1em;
+	color: black;
+}
+h2, h3, h4, h5, h6 {
+	font-family: 'Monaco';
+	font-size: 1,6em;
+	font-weight: 500;
+	line-height: 1,8em;
+	color: black;
+}
+table {
+	width: 100%;
+	font-family: 'Verdana', serif;
+	font-size: 1,6em;
+	line-height: 1,6em;
+	font-weight: 500;
+	color: black;
+	border-collapse: collapse;
+	margin: 0px 0px 0px 0px;
+}
+th, td {
+	padding: 1em;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+	margin: 0px 0px 0px 0px;
+}
+th {
+	font-family: 'Monaco', serif;
+	font-weight: 500;
+	font-size: 1,8em;
+	color: green;
+	text-align: left;
+	height: auto;
+	vertical-align: center;
+	margin: 0px 0px 0px 0px;
+}
+td {
+	font-weight: 500;
+	height: auto;
+	vertical-align: center;
+	margin: 0px 0px 0px 0px;
+}
+tr:hover {
+	background-color: #DCDCDC;
+	font-weight: 500;
+	margin: 0px 0px 0px 0px;
+}
+table.top {
+	width: 100%;
+	font-family: 'Monaco', serif;
+	font-size: 1,6em;
+	line-height: 1,8em;
+	font-weight: 500;
+	color: black;
+	border-collapse: collapse;
+	margin: 0px 0px 0px 0px;
+}
+table.top th, td {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+	margin: 0px 0px 0px 0px;
+}
+table.top td {
+	font-weight: 500;
+	height: auto;
+	vertical-align: center;
+	margin: 0px 0px 0px 0px;
+}
+table.top tr:hover {
+	background-color: #DCDCDC;
+	font-weight: 500;
+	margin: 0px 0px 0px 0px;
+}
+.toptable-meta {
+	font-weight: 500;
+	color: green;
+}
+.highlighter-rouge {
+	font-family: 'Monaco';
+	font-size: 1,6em;
+	line-height: 1,8em;
+	font-weight: 500;
+	color: black;
+	border: solid 1px silver;
+	background-color: #DCDCDC;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 9px 9px;
+}
+del {
+	color: #DCDCDC;
+}
+strong {
+	color: black;
+	font-family: 'Monaco';
+	font-size: 1,6em;
+	line-height: 1,8em;
+	font-weight: 700;
+}
+em {
+	font-family: 'Monaco', serif;
+	color: black;
+	font-size: 1,6em;
+	line-height: 1,8em;
+	font-weight: 500;
+}
+li {
+	font-family: 'Monaco';
+	font-size: 1,6em;
+	line-height: 1,8em;
+	font-weight: 500;
+	color: #4e80d8;
+}
+ul {
+	font-family: 'Monaco', serif;
+	font-size: 1,6em;
+	line-height: 1,8em;
+	font-weight: 500;
+	color: #4e80d8;
+}
+a.one:link {
+	color: #4e80d8;
+	font-family: 'Monaco';
+	font-size: 1,6em;
+	line-height: 1,8em;
+	font-weight: 500;
+}
+a.one:visited {
+	color: violet;
+	font-family: 'Monaco';
+	font-size: 1,6em;
+	line-height: 1,8em;
+	font-weight: 500;
+}
+a.one:hover {
+	color: green;
+	font-family: 'Monaco';
+	font-size: 1,6em;
+	line-height: 1,8em;
+	font-weight: 500;
+}
+a:link {
+	color: #4e80d8;
+	text-decoration: none;
+	font-weight: 500;
+}
+a:visited {
+	color: violet;
+	text-decoration: none;
+	font-weight: 500;
+}
+a:hover {
+	color: green;
+	text-decoration: none;
+	font-weight: 500;
+}
+a:active {
+	color: #4e80d8;
+	text-decoration: none;
+	font-weight: 500;
+}
+.footnote {
+	color: #4e80d8;
+	text-decoration: none;
+	font-weight: 500;
+}
+img {
+	max-width: 100%;
+	min-width: 50%;
+	height: auto;
+	margin: 1em 1em 1em 1em;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.container {
+	width: 50px;
+}
+.container img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+* {
+	box-sizing: border-box;
+}
+.row:after {
+  content: ".";
+  display: table;
+  clear: both;
+}
+/* Create two equal columns that floats next to each other */
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}

@@ -1,0 +1,52 @@
+---
+---
+
+html {
+	height: 100%;
+}
+
+
+p.shortname
+{
+	font-family: 'Monaco', serif;
+	font-size: 8px;
+	line-height: 1em;
+	font-weight: 100;
+	color: #4e80d8;
+}
+
+p.info
+{
+	font-family: 'Monaco', serif;
+	font-size: 15px;
+	line-height: 1em;
+	font-weight: 100;
+	color: grey;
+}
+
+
+figure {
+  float: left;
+  width: 20%;
+  text-align: center;
+  font-style: inherit;
+  font-size: inherit;
+  border: thin white dotted;
+  margin: 1px;
+  padding: 1px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	color: green;
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}

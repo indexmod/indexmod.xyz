@@ -1,0 +1,48 @@
+---
+
+title: Modindex
+timezone: UTC
+description: is a new chainpædia 
+
+show_sidebar: false
+show_downloads: false
+show_title: false
+show_description: false
+git_branch: master
+
+theme: jekyll-theme-minimal
+
+include: ['.htaccess']
+
+exclude: ['indexmod-curators.html','style-universe.scss','style.scss' ]
+
+use_github_wiki: false
+use_prose_io: true
+custom_head: false
+custom_sidebar: false
+custom_footer: false
+
+prose:
+  rooturl:
+  siteurl:
+  relativeLinks: 'https://prose.github.io/starter/links.jsonp'
+  media: '/images'
+
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /style-universe.scss
+    - /style.scss
+    - /assets
+    - 404.md
+    - universe.md
+    - universe.html
+    - indexmod-curators.md
+    - indexmod-curators.html
+    - README.md
+    - feed.xml
+    - sitemap.xml
+    - robots.txt
+    - redirects.json

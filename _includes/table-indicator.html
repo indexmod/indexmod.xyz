@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<table class="top" style="width:100%">
+		<tr>
+			<td>Stroke: <span class="toptable-meta">{% include stroke.html %}</span></td>
+		</tr>
+		<tr>
+			<td>Indexmod: <span class="toptable-meta">{% include indexmod.html %}</span></td>
+		</tr>
+		<tr>
+			<td>Space: <span class="toptable-meta">{% include space.html %}</span></td>
+		</tr>
+		<tr>
+			<td>Shortname: <span class="toptable-meta">{{page.shortname}}</span></td>
+		</tr>
+		<tr>
+			<td>Social: <span class="toptable-meta">{% include social.html %}</span></td>
+		</tr>
+		<tr>
+			<td>Words: <span class="toptable-meta">{% include words.html %}</span></td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Birth: <span class="toptable-meta">{{page.birth}}</span></td>
+		</tr>
+		<tr>
+			<td>Age: <span class="toptable-meta">{{ site.time | date: "%Y" | minus: page.birth }}</span></td>
+		</tr>
+		<tr>
+			<td>Facebook: <span class="toptable-meta">{{ page.facebook }}</span></td>
+		</tr>
+		<tr>
+			<td>Instagram: <span class="toptable-meta">{{ page.instagram }}</span></td>
+		</tr>
+		<tr>
+			<td>Twitter: <span class="toptable-meta">{{ page.twitter }}</span></td>
+		</tr>
+		<tr>
+			<td>Vkontakte: <span class="toptable-meta">{{ page.vkontakte }}</span></td>
+		</tr>
+		<tr>
+			<td>Vimeo: <span class="toptable-meta">{{ page.vimeo }}</span></td>
+		</tr>
+		<tr>
+			<td>Youtube: <span class="toptable-meta">{{ page.youtube }}</span></td>
+		</tr>
+		<tr>
+			<td>Soundcloud: <span class="toptable-meta">{{ page.soundcloud }}</span></td>
+		</tr>
+		<tr>
+			<td>Words: <span class="toptable-meta">{{ number_of_words }}</span></td>
+		</tr>
+	</table>
+</body>
+</html>
