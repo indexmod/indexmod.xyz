@@ -3,7 +3,6 @@ title: Indexmod universe
 permalink: universe
 layout: tech-universe
 shortname: UNIVERSE
-exclude: true
 ---
 
 + This page animation performed best in Google Chrome and Firefox
