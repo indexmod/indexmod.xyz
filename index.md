@@ -14,7 +14,8 @@ exclude: true
 <figure>
 <p>{% include indexmod-indicator.html %}</p>
 <figcaption>
-<p class="shortname">{{page.shortname}}</p></figcaption>
+<a href="{{page.shortname}}" class="shortname">{{page.shortname}}</a>
+</figcaption>
 </figure>
 {% endunless %}
 {% endfor %}
