@@ -52,14 +52,20 @@ a:active {
 }
 
 .button-sound {
-  display: inline-block;
-  width: 50px; /* Задайте желаемый диаметр круга */
-  height: 50px; /* Задайте желаемый диаметр круга */
-  border-radius: 50%; /* Делаем круглую форму */
-  background-color: black; /* Задаем черный фон */
-  border: 2px solid red; /* Задаем красную рамку */
-  color: white; /* Задаем белый цвет текста (если нужен текст на кнопке) */
-  text-align: center; /* Выравнивание текста по центру */
-  line-height: 50px; /* Выравнивание текста по вертикали по центру */
-  text-decoration: none; /* Убираем стандартное подчеркивание текста в ссылке */
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid red;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.button-sound:hover {
+    background-color: green;
+    color: white;
+    text-decoration: underline;
 }
