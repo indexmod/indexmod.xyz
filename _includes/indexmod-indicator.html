@@ -1,54 +1,15 @@
-<head>
-<style>
-button {
-        width: 30px;
-        height: 30px;
-        border: none;
-        border-radius: 50%;
-        color: #ddd;
-        cursor: pointer;
-        outline: none;
-        transition: background-color 0.3s;
-    }
-</style>
-</head>
-<body>
+<svg height="100px" width="100px">
 
-<button id="sound-button"></button>
+  	<defs>
+			<radialgradient cx="50%" cy="50%" fx="50%" fy="50%" id="grad" r="50%">
+				<stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"></stop>
+				<stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:1"></stop>
+			</radialgradient>
+		</defs>
+		<ellipse cx="50" cy="50" fill="url(#grad)" rx="10" ry="10" stroke="rgb(0,{% include indexmod.html %},0)" fill-opacity="0.5" stroke-opacity="{% include indexmod.html %}" stroke-width="{% include stroke.html %}"></ellipse>
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    var button = document.getElementById("sound-button");
-    var isSoundOn = false;
-    var audioContext;
-    var oscillator;
-
-    button.addEventListener("click", function () {
-        isSoundOn = !isSoundOn;
-
-        if (isSoundOn) {
-            button.style.backgroundColor = "#4CAF50";
-            audioContext = new (window.AudioContext || window.webkitAudioContext)();
-            oscillator = audioContext.createOscillator();
-            var filter = audioContext.createBiquadFilter();
-            oscillator.connect(filter);
-            filter.connect(audioContext.destination);
-
-            oscillator.type = 'sine'; // тип осциллятора
-            oscillator.frequency.setValueAtTime(30, audioContext.currentTime); // частота осциллятора
-            oscillator.start();
-
-            filter.type = 'lowpass'; // тип фильтра
-            filter.frequency.setValueAtTime(50, audioContext.currentTime); // начальная частота фильтра
-            filter.Q.setValueAtTime(50, audioContext.currentTime); // Q-фактор для остроты фильтра
-        } else {
-            button.style.backgroundColor = "#ccc";
-            if (audioContext) {
-                audioContext.close();
-            }
-        }
-    });
-});
-</script>
-
-</body>
+		<animatetransform additive="sum" attributename="transform" begin="0s" dur="5s" from="1 1" repeatcount="indefinite" to="2 2" type="scale">
+		</animatetransform>
+		<animatetransform additive="sum" attributename="transform" begin="5s" dur="5s" from="2 2" repeatcount="indefinite" to="1 1" type="scale">
+		</animatetransform>
+  </svg>
