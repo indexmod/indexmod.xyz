@@ -1,15 +1,56 @@
-<svg height="100px" width="100px">
+<svg height="100px" width="100px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialgradient cx="50%" cy="50%" fx="50%" fy="50%" id="grad" r="50%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"></stop>
+      <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:1"></stop>
+    </radialgradient>
+  </defs>
+  <ellipse
+    id="clickableEllipse"
+    cx="50"
+    cy="50"
+    fill="url(#grad)"
+    rx="10"
+    ry="10"
+    stroke="rgb(0,{% include indexmod.html %},0)"
+    fill-opacity="0.5"
+    stroke-opacity="{% include indexmod.html %}"
+    stroke-width="{% include stroke.html %}"
+  ></ellipse>
+  <animatetransform
+    additive="sum"
+    attributename="transform"
+    begin="0s"
+    dur="5s"
+    from="1 1"
+    repeatcount="indefinite"
+    to="2 2"
+    type="scale"
+  ></animatetransform>
+  <animatetransform
+    additive="sum"
+    attributename="transform"
+    begin="5s"
+    dur="5s"
+    from="2 2"
+    repeatcount="indefinite"
+    to="1 1"
+    type="scale"
+  ></animatetransform>
 
-  	<defs>
-			<radialgradient cx="50%" cy="50%" fx="50%" fy="50%" id="grad" r="50%">
-				<stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"></stop>
-				<stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:1"></stop>
-			</radialgradient>
-		</defs>
-		<ellipse cx="50" cy="50" fill="url(#grad)" rx="10" ry="10" stroke="rgb(0,{% include indexmod.html %},0)" fill-opacity="0.5" stroke-opacity="{% include indexmod.html %}" stroke-width="{% include stroke.html %}"></ellipse>
-
-		<animatetransform additive="sum" attributename="transform" begin="0s" dur="5s" from="1 1" repeatcount="indefinite" to="2 2" type="scale">
-		</animatetransform>
-		<animatetransform additive="sum" attributename="transform" begin="5s" dur="5s" from="2 2" repeatcount="indefinite" to="1 1" type="scale">
-		</animatetransform>
-  </svg>
+  <!-- Добавляем скрипт для обработки события клика -->
+  <script>
+    document.getElementById("clickableEllipse").addEventListener("click", function() {
+      // Здесь добавьте код для генерации звукового тона
+      // Например, используя Web Audio API или другие методы работы с аудио
+      // Пример использования Web Audio API:
+      var audioContext = new (window.AudioContext || window.webkitAudioContext)();
+      var oscillator = audioContext.createOscillator();
+      oscillator.type = "sine"; // Тип волны (можете использовать другие типы)
+      oscillator.frequency.value = "{% include indexmod.html %}"; // Частота в герцах (пример с частотой ля)
+      oscillator.connect(audioContext.destination);
+      oscillator.start();
+      oscillator.stop(audioContext.currentTime + 0.5); // Проигрывание звука в течение 0.5 секунды
+    });
+  </script>
+</svg>
