@@ -11,8 +11,11 @@ exclude: true
 {% assign mypages = site.html_pages | sort: "order" %}
 {% for page in mypages %}
 {% unless page.exclude %}
-<figure>{% include indexmod-indicator.html %}</figure>
-<figcaption>{{page.shortname}}</figcaption>
+<figure>
+<a href="{{ page.permalink | absolute_url }}">{% include indexmod-indicator.html %}</a>
+<figcaption>
+<p class="shortname">{{page.shortname}}</p></figcaption>
+</figure>
 {% endunless %}
 {% endfor %}
 </wrap>
