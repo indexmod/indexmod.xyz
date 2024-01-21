@@ -1,0 +1,36 @@
+<button id="sound-button"></button>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var button = document.getElementById("sound-button");
+        var isSoundOn = false;
+        var audioContext;
+        var oscillator;
+
+        button.addEventListener("click", function () {
+            isSoundOn = !isSoundOn;
+
+            if (isSoundOn) {
+                button.style.backgroundColor = "#4CAF50";
+                audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                oscillator = audioContext.createOscillator();
+                var filter = audioContext.createBiquadFilter();
+                oscillator.connect(filter);
+                filter.connect(audioContext.destination);
+
+                oscillator.type = 'sine'; // тип осциллятора
+                oscillator.frequency.setValueAtTime(30, audioContext.currentTime); // частота осциллятора
+                oscillator.start();
+
+                filter.type = 'lowpass'; // тип фильтра
+                filter.frequency.setValueAtTime(50, audioContext.currentTime); // начальная частота фильтра
+                filter.Q.setValueAtTime(50, audioContext.currentTime); // Q-фактор для остроты фильтра
+            } else {
+                button.style.backgroundColor = "#ccc";
+                if (audioContext) {
+                    audioContext.close();
+                }
+            }
+        });
+    });
+</script>
