@@ -26,7 +26,7 @@
                 filter.frequency.setValueAtTime(50, audioContext.currentTime); // начальная частота фильтра
                 filter.Q.setValueAtTime({% include indexmod.html %}, audioContext.currentTime); // Q-фактор для остроты фильтра
             } else {
-                button.style.backgroundColor = "white";
+                button.style.backgroundColor = "grey";
                 if (audioContext) {
                     audioContext.close();
                 }
