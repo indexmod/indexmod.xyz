@@ -1,0 +1,2 @@
+Sitemap: https://gasbag.ga/sitemap.xml
+Host: https://gasbag.ga

@@ -1,8 +1,8 @@
 ---
 
-title: Modindex
+title: MDNX
 timezone: UTC
-description: is a new chainpædia 
+description: is a fashion and art chainpædia
 
 show_sidebar: false
 show_downloads: false
@@ -23,8 +23,8 @@ custom_sidebar: false
 custom_footer: false
 
 prose:
-  rooturl:
-  siteurl:
+  rooturl: 'https://indexmod.github.io/modindex/'
+  siteurl: 'https://indexmod.github.io/modindex/'
   relativeLinks: 'https://prose.github.io/starter/links.jsonp'
   media: '/images'
 
