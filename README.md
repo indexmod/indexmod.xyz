@@ -1,4 +1,7 @@
-# Indexmod
-Indexmod is a fashion and art wiki 
+# MDINX
+https://indexmod.github.io/modindex/
+
+
+
 
 
