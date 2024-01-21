@@ -24,7 +24,7 @@ body {
 	margin-left: 5%;
 	margin-right: 20%;
 	padding: 0;
-	background: white;
+	background: black;
 }
 
 p {
@@ -32,7 +32,7 @@ p {
 	font-size: 1,6em;
 	line-height: 1,8em;
 	font-weight: 500;
-	color: black;
+	color: white;
 }
 
 p.foot {
@@ -40,6 +40,7 @@ p.foot {
 	font-size: 1,6em;
 	line-height: 1,8em;
 	font-weight: 500;
+	color: white;
 }
 
 
@@ -48,12 +49,14 @@ p.caption-name {
 	font-size: 1,6em;
 	line-height: 1,8em;
 	font-weight: 500;
+	color: white;
 }
 p.caption-position {
 	font-family: 'Monaco', serif;
 	font-size: 1,6em;
 	line-height: 1,8em;
 	font-weight: 500;
+	color: white;
 }
 .rate {
 	font-weight: 500;
@@ -61,21 +64,21 @@ p.caption-position {
 }
 .rate:hover {
 	font-weight: 500;
-	color: black;
+	color: red;
 }
 h1 {
 	font-family: 'Old Standard TT', serif;
 	font-size: 1,7em;
 	font-weight: 900;
 	line-height: 1em;
-	color: black;
+	color: white;
 }
 h2, h3, h4, h5, h6 {
 	font-family: 'Monaco';
 	font-size: 1,6em;
 	font-weight: 500;
 	line-height: 1,8em;
-	color: black;
+	color: white;
 }
 table {
 	width: 100%;
@@ -83,14 +86,14 @@ table {
 	font-size: 1,6em;
 	line-height: 1,6em;
 	font-weight: 500;
-	color: black;
+	color: white;
 	border-collapse: collapse;
 	margin: 0px 0px 0px 0px;
 }
 th, td {
 	padding: 1em;
 	text-align: left;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid white;
 	margin: 0px 0px 0px 0px;
 }
 th {
@@ -108,6 +111,7 @@ td {
 	height: auto;
 	vertical-align: center;
 	margin: 0px 0px 0px 0px;
+	color: white;
 }
 tr:hover {
 	background-color: #DCDCDC;
@@ -120,14 +124,14 @@ table.top {
 	font-size: 1,6em;
 	line-height: 1,8em;
 	font-weight: 500;
-	color: black;
+	color: white;
 	border-collapse: collapse;
 	margin: 0px 0px 0px 0px;
 }
 table.top th, td {
 	padding: 10px;
 	text-align: left;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid white;
 	margin: 0px 0px 0px 0px;
 }
 table.top td {
@@ -135,6 +139,7 @@ table.top td {
 	height: auto;
 	vertical-align: center;
 	margin: 0px 0px 0px 0px;
+	color: white;
 }
 table.top tr:hover {
 	background-color: #DCDCDC;
@@ -150,7 +155,7 @@ table.top tr:hover {
 	font-size: 1,6em;
 	line-height: 1,8em;
 	font-weight: 500;
-	color: black;
+	color: white;
 	border: solid 1px silver;
 	background-color: #DCDCDC;
 	-moz-border-radius: 5px;
@@ -162,15 +167,15 @@ del {
 	color: #DCDCDC;
 }
 strong {
-	color: black;
 	font-family: 'Monaco';
 	font-size: 1,6em;
 	line-height: 1,8em;
 	font-weight: 700;
+	color: white;
 }
 em {
 	font-family: 'Monaco', serif;
-	color: black;
+	color: white;
 	font-size: 1,6em;
 	line-height: 1,8em;
 	font-weight: 500;
@@ -180,14 +185,14 @@ li {
 	font-size: 1,6em;
 	line-height: 1,8em;
 	font-weight: 500;
-	color: #4e80d8;
+	color: white;
 }
 ul {
 	font-family: 'Monaco', serif;
 	font-size: 1,6em;
 	line-height: 1,8em;
 	font-weight: 500;
-	color: #4e80d8;
+	color: white;
 }
 a.one:link {
 	color: #4e80d8;
