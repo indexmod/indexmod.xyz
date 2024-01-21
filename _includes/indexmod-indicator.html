@@ -1,29 +1,15 @@
-<head>
-    <style>
-        body {
-  .round-button {
-            border: none;
-            border-radius: 50%;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #333; /* темно серая */
-            color: #fff; /* белый текст */
-            outline: none; /* убираем рамку фокуса */
-        }
+<svg height="100px" width="100px">
 
-        .round-button.clicked {
-            background-color: #ccc; /* светло серая после нажатия */
-        }
-    </style>
-    <title>Ф</title>
-</head>
-<body>
-    <button class="round-button" onclick="toggleButton()">Ф</button>
-    <script>
-        function toggleButton() {
-            var button = document.querySelector('.round-button');
-            button.classList.toggle('clicked');
-        }
-    </script>
-</body>
+  	<defs>
+			<radialgradient cx="50%" cy="50%" fx="50%" fy="50%" id="grad" r="50%">
+				<stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"></stop>
+				<stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:1"></stop>
+			</radialgradient>
+		</defs>
+		<ellipse cx="50" cy="50" fill="url(#grad)" rx="10" ry="10" stroke="rgb(0,{% include indexmod.html %},0)" fill-opacity="0.5" stroke-opacity="{% include indexmod.html %}" stroke-width="{% include stroke.html %}"></ellipse>
+
+		<animatetransform additive="sum" attributename="transform" begin="0s" dur="5s" from="1 1" repeatcount="indefinite" to="2 2" type="scale">
+		</animatetransform>
+		<animatetransform additive="sum" attributename="transform" begin="5s" dur="5s" from="2 2" repeatcount="indefinite" to="1 1" type="scale">
+		</animatetransform>
+  </svg>
