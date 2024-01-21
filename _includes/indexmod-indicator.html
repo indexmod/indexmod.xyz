@@ -1,18 +1,33 @@
+<!-- Элемент для воспроизведения звука -->
+  <audio id="toneAudio" preload="auto">
+    <!-- Вставьте звуковой файл, например, пустой MP3-файл -->
+    <source src="path/to/empty-audio-file.mp3" type="audio/mp3">
+    Ваш браузер не поддерживает воспроизведение звука.
+  </audio>
 
+  <script>
+    // Функция для воспроизведения звука на 100 герц
+    function playTone() {
+      // Создаем AudioContext
+      var audioContext = new (window.AudioContext || window.webkitAudioContext)();
 
-<!-- Элемент для отображения текущего тона -->
-<p id="toneValue">Текущий тональный параметр: </p>
+      // Создаем генератор звука
+      var oscillator = audioContext.createOscillator();
+      oscillator.type = 'sine'; // sine wave для простоты
+      oscillator.frequency.setValueAtTime(100, audioContext.currentTime); // Частота в герцах
 
-<!-- Кнопка для генерации нового тона -->
-<button onclick="generateRandomTone()">Сгенерировать</button>
+      // Подключаем генератор к аудио-выходу
+      oscillator.connect(audioContext.destination);
 
-<script>
-  // Функция для генерации случайного тона
-  function generateRandomTone() {
-    // Генерируем случайное значение от 0 до 100
-    var randomTone = Math.floor(Math.random() * 101);
+      // Запускаем генератор
+      oscillator.start();
 
-    // Отображаем значение на странице
-    document.getElementById("toneValue").innerText = "Текущий тональный параметр: " + randomTone;
-  }
-</script>
+      // Останавливаем через 1 секунду (можете изменить по необходимости)
+      setTimeout(function() {
+        oscillator.stop();
+      }, 1000);
+    }
+
+    // Вызываем функцию при загрузке страницы (можете вызывать по событию)
+    window.onload = playTone;
+  </script>
