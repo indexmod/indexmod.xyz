@@ -11,7 +11,7 @@
             isSoundOn = !isSoundOn;
 
             if (isSoundOn) {
-                button.style.backgroundColor = "#4CAF50";
+                button.style.backgroundColor = "black";
                 audioContext = new (window.AudioContext || window.webkitAudioContext)();
                 oscillator = audioContext.createOscillator();
                 var filter = audioContext.createBiquadFilter();
@@ -19,14 +19,14 @@
                 filter.connect(audioContext.destination);
 
                 oscillator.type = 'sine'; // тип осциллятора
-                oscillator.frequency.setValueAtTime(30, audioContext.currentTime); // частота осциллятора
+                oscillator.frequency.setValueAtTime({% include indexmod.html %}, audioContext.currentTime); // частота осциллятора
                 oscillator.start();
 
                 filter.type = 'lowpass'; // тип фильтра
-                filter.frequency.setValueAtTime(50, audioContext.currentTime); // начальная частота фильтра
-                filter.Q.setValueAtTime(50, audioContext.currentTime); // Q-фактор для остроты фильтра
+                filter.frequency.setValueAtTime({% include indexmod.html %}, audioContext.currentTime); // начальная частота фильтра
+                filter.Q.setValueAtTime({% include indexmod.html %}, audioContext.currentTime); // Q-фактор для остроты фильтра
             } else {
-                button.style.backgroundColor = "#ccc";
+                button.style.backgroundColor = "grey";
                 if (audioContext) {
                     audioContext.close();
                 }
