@@ -19,14 +19,14 @@
                 filter.connect(audioContext.destination);
 
                 oscillator.type = 'sine'; // тип осциллятора
-                oscillator.frequency.setValueAtTime({% include indexmod.html %}, audioContext.currentTime); // частота осциллятора
+                oscillator.frequency.setValueAtTime(30, audioContext.currentTime); // частота осциллятора
                 oscillator.start();
 
                 filter.type = 'lowpass'; // тип фильтра
-                filter.frequency.setValueAtTime({% include indexmod.html %}, audioContext.currentTime); // начальная частота фильтра
+                filter.frequency.setValueAtTime(50, audioContext.currentTime); // начальная частота фильтра
                 filter.Q.setValueAtTime({% include indexmod.html %}, audioContext.currentTime); // Q-фактор для остроты фильтра
             } else {
-                button.style.backgroundColor = "grey";
+                button.style.backgroundColor = "red";
                 if (audioContext) {
                     audioContext.close();
                 }
