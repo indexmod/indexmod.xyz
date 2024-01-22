@@ -11,7 +11,7 @@
             isSoundOn = !isSoundOn;
 
             if (isSoundOn) {
-                button.style.backgroundColor = "silver";
+                button.style.backgroundColor = "white";
                 audioContext = new (window.AudioContext || window.webkitAudioContext)();
                 oscillator = audioContext.createOscillator();
                 var filter = audioContext.createBiquadFilter();
@@ -26,7 +26,7 @@
                 filter.frequency.setValueAtTime(50, audioContext.currentTime); // начальная частота фильтра
                 filter.Q.setValueAtTime({% include indexmod.html %}, audioContext.currentTime); // Q-фактор для остроты фильтра
             } else {
-                button.style.backgroundColor = "white";
+                button.style.backgroundColor = "silver";
                 if (audioContext) {
                     audioContext.close();
                 }
