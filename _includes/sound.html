@@ -6,31 +6,43 @@
         var isSoundOn = false;
         var audioContext;
         var oscillator;
+        var strobeInterval;
 
         button.addEventListener("click", function () {
             isSoundOn = !isSoundOn;
 
             if (isSoundOn) {
-                button.style.backgroundColor = "white";
+                startStrobeEffect();
                 audioContext = new (window.AudioContext || window.webkitAudioContext)();
                 oscillator = audioContext.createOscillator();
                 var filter = audioContext.createBiquadFilter();
                 oscillator.connect(filter);
                 filter.connect(audioContext.destination);
 
-                oscillator.type = 'sine'; // тип осциллятора
-                oscillator.frequency.setValueAtTime(30, audioContext.currentTime); // частота осциллятора
+                oscillator.type = 'sine';
+                oscillator.frequency.setValueAtTime(30, audioContext.currentTime);
                 oscillator.start();
 
-                filter.type = 'lowpass'; // тип фильтра
-                filter.frequency.setValueAtTime(50, audioContext.currentTime); // начальная частота фильтра
-                filter.Q.setValueAtTime({% include indexmod.html %}, audioContext.currentTime); // Q-фактор для остроты фильтра
+                filter.type = 'lowpass';
+                filter.frequency.setValueAtTime(50, audioContext.currentTime);
+                filter.Q.setValueAtTime(10, audioContext.currentTime);
             } else {
-                button.style.backgroundColor = "silver";
+                stopStrobeEffect();
                 if (audioContext) {
                     audioContext.close();
                 }
             }
         });
+
+        function startStrobeEffect() {
+            strobeInterval = setInterval(function () {
+                button.style.backgroundColor = button.style.backgroundColor === "white" ? "red" : "white";
+            }, 50); // Change the interval as needed
+        }
+
+        function stopStrobeEffect() {
+            clearInterval(strobeInterval);
+            button.style.backgroundColor = "silver";
+        }
     });
 </script>
