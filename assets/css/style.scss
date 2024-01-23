@@ -274,11 +274,12 @@ img {
 
 button {
     width: 200px;
-    height: 100px;
+    height: 200px;
     border: 1px solid white;
     background-color: black;
-    color: silver;
+    color: white;
+    border-radius: 50%;
     cursor: pointer;
     outline: none;
-    transition: background-color 10s;
+    transition: background-color 0.1s;
 }
