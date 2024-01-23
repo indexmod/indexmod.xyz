@@ -6,8 +6,6 @@ shortname: UNIVERSE
 exclude: true
 ---
 
-+ This page animation performed best in Google Chrome and Firefox
-
 <wrap>
 
 {% assign mypages = site.html_pages | sort: "order" %}

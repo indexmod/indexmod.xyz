@@ -1,8 +1,8 @@
-<button id="sound-button"></button>
+<button id="sound-button-{{page.permalink}}"></button>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-        var button = document.getElementById("sound-button");
+        var button = document.getElementById("sound-button-{{page.permalink}}");
         var isSoundOn = false;
         var audioContext;
         var oscillator;
@@ -37,7 +37,7 @@
         function startStrobeEffect() {
             strobeInterval = setInterval(function () {
                 button.style.backgroundColor = button.style.backgroundColor === "silver" ? "white" : "silver";
-            }, 2); // Change the interval as needed
+            }, 0.1); // Change the interval as needed
         }
 
         function stopStrobeEffect() {
