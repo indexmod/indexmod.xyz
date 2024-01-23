@@ -1,0 +1,5 @@
+---
+---
+{% for page in site.html_pages %}
+{{ page.url | replace: '.html', '' }}{{ page.url | replace: '.html', '/' }}
+{% endfor %}
