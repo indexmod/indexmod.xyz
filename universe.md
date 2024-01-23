@@ -14,9 +14,10 @@ exclude: true
 {% for page in mypages %}
 {% unless page.exclude %}
 <figure>
-<a href="{{ page.permalink | absolute_url }}">{% include indexmod-indicator.html %}</a>
+<p>{% include sound.html %}</p>
 <figcaption>
-<p class="shortname">{{page.shortname}}</p></figcaption>
+<p class="shortname">{{page.shortname}}</p>
+</figcaption>
 </figure>
 {% endunless %}
 {% endfor %}
