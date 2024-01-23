@@ -51,3 +51,15 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
+
+button {
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.1s;
+}
