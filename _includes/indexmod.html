@@ -1,8 +1,6 @@
 {% assign number_of_words = content | strip_html | number_of_words %}
-{% assign social = page.facebook | plus: page.instagram | plus: page.youtube | plus: page.vimeo | plus: page.vkontakte | plus: page.twitter | plus: page.tumblr | plus: page.youtube | plus: page.soundcloud | plus: page.pinterest | plus: page.weibo %}
-{% assign age = site.time | date: "%Y" | minus: page.birth %}
-{% assign postage = site.time | date: "%Y" | minus: page.indexed %}
-{% assign index = age | times: social | divided_by: 1000000.0 %}
+{% assign age = site.time | date: "%Y" | minus: page.found %}
+{% assign postage = site.time | date: "%Y" | minus: page.radius %}
 {% assign indexmod = index | times: number_of_words | divided_by: 1000 | times: postage %}
 
 {{ indexmod | round: 1 }}

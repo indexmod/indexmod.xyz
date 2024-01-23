@@ -20,12 +20,12 @@
                 filter.connect(audioContext.destination);
 
                 oscillator.type = 'sine';
-                oscillator.frequency.setValueAtTime(30, audioContext.currentTime);
+                oscillator.frequency.setValueAtTime({% include indexmod.html %}, audioContext.currentTime);
                 oscillator.start();
 
                 filter.type = 'lowpass';
                 filter.frequency.setValueAtTime(50, audioContext.currentTime);
-                filter.Q.setValueAtTime(10, audioContext.currentTime);
+                filter.Q.setValueAtTime({% include indexmod.html %}, audioContext.currentTime);
             } else {
                 stopStrobeEffect();
                 if (audioContext) {
@@ -37,7 +37,7 @@
         function startStrobeEffect() {
             strobeInterval = setInterval(function () {
                 button.style.backgroundColor = button.style.backgroundColor === "silver" ? "white" : "silver";
-            }, 0.1); // Change the interval as needed
+            }, 10-{% include indexmod.html %}); // Change the interval as needed
         }
 
         function stopStrobeEffect() {
