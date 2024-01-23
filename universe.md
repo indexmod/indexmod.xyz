@@ -6,8 +6,6 @@ shortname: UNIVERSE
 exclude: true
 ---
 
-
-
 <wrap>
 <p>[Pages](/pages.md)</p>
 {% assign mypages = site.html_pages | sort: "order" %}
@@ -21,5 +19,4 @@ exclude: true
 </figure>
 {% endunless %}
 {% endfor %}
-
 </wrap>
