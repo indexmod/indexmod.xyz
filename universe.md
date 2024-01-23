@@ -5,6 +5,7 @@ layout: tech-universe
 shortname: UNIVERSE
 exclude: true
 ---
+[Pages](/pages.md)
 
 <wrap>
 

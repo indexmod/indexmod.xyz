@@ -5,8 +5,9 @@ exclude: true
 published: true
 ---
 
-is a Chainpædia developed and edited by [Андрей Дейниченко](mailto:indexmod@ya.ru)
+Developed by [Андрей Дейниченко](mailto:indexmod@ya.ru)
 
+[Uni](/universe.md)
 
 <ul>
   {% assign mypages = site.pages | sort: "order" %}
