@@ -12,7 +12,7 @@ git_branch: master
 
 theme: jekyll-theme-minimal
 
-include: []
+include:
 
 exclude: ['indexmod-curators.html','style-universe.scss','style.scss' ]
 
