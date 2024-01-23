@@ -1,31 +1,15 @@
 <!DOCTYPE html>
 <head>
-{% include facebook.html %}
-{% include yandex.html %}
-{% include google.html %}
 {% include meta.html %}
 {% include favicon.html %}
 </head>
 <body>
 <h1>{{page.title}}</h1>
 <br>
-{% include indexmod-indicator.html %}
-{% include sound.html %}
-<br>
-{% include topblock.html %}
-{% include toptable.html %}
-<br>
-{% include edit.html %}
-<br>
 {{ content }}
-<hr>
-{% include footer-1.html %}
-{% include footer-2.html %}
-
 <div class="container">
 <a href="index"><img alt="Indexmod" src="/modindex/identity/indexmod-2018.png" style="width:auto;height:auto;border:0;"></a>
 </div>
 <p>2006 — {{ site.time | date: "%Y" }} © Indexmod</p>
-
 </body>
 </html>
