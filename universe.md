@@ -5,10 +5,11 @@ layout: tech-universe
 shortname: UNIVERSE
 exclude: true
 ---
-[Pages](/pages.md)
+
+
 
 <wrap>
-
+<p>[Pages](/pages.md)</p>
 {% assign mypages = site.html_pages | sort: "order" %}
 {% for page in mypages %}
 {% unless page.exclude %}
