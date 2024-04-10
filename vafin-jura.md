@@ -1,5 +1,5 @@
 ---
-title: Vafin, Jura
+title: Вафин, Юра
 permalink: vafin-jura
 layout: default
 exclude: false
