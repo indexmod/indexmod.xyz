@@ -5,7 +5,7 @@ layout: info
 exclude: true
 type: interview
 discovered: 2024
-shortname: 
+shortname: INDEXMOD 2.0
 ---
 
 Interview with Andrey Deichenko, creator of Indexmod Chainpædia
