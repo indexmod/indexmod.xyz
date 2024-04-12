@@ -1,6 +1,6 @@
 ---
-title: Route Map
-permalink: routemap
+title: Road Map
+permalink: roadmap
 layout: docs
 exclude: true
 type: interview
