@@ -1,7 +1,7 @@
 ---
 title: Interview
 permalink: interview
-layout: default
+layout: docs
 exclude: true
 type: interview
 discovered: 2024
