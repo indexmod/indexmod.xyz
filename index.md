@@ -5,5 +5,5 @@ exclude: true
 published: true
 ---
 
-[Uni](/universe.md)
-[Pages](/pages.md)
+[Грид](/universe.md)
+[Страницы](/pages.md)
