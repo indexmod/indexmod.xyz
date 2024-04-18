@@ -1,6 +1,0 @@
-{% assign number_of_words = content | strip_html | number_of_words %}
-{% assign age = site.time | date: "%Y" | minus: page.found %}
-{% assign postage = site.time | date: "%Y" | minus: page.radius %}
-{% assign indexmod = index | times: number_of_words | divided_by: 10 | times: postage %}
-
-{{ indexmod | round: 1 }}
