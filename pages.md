@@ -12,7 +12,7 @@ Developed by [Андрей Дейниченко](mailto:indexmod@ya.ru)
 <ul>
   {% assign mypages = site.pages | sort: "order" %}
   {% for page in mypages %}
-    {% unless page.exclude or (page.path contains 'style.scss' or page.path contains 'style-universe.scss' or page.path contains '.htaccess') %}
+    {% unless page.exclude or (page.path contains 'style.scss' or page.path contains 'style-uni.scss' or page.path contains '.htaccess') %}
       <li class="intro">
         <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
       </li>
