@@ -1,11 +1,10 @@
 ---
-title: Modindex by Andrei Deinichenko
-layout: cover
+title: Pages
+layout: default
 exclude: true
 published: true
+shortname: PAGES
 ---
-
-Developed by [Андрей Дейниченко](mailto:indexmod@ya.ru)
 
 [Uni](/universe.md)
 
