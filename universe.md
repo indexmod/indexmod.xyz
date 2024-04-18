@@ -7,7 +7,6 @@ exclude: true
 ---
 
 <wrap>
-<p>[Pages](/pages.md)</p>
 {% assign mypages = site.html_pages | sort: "order" %}
 {% for page in mypages %}
 {% unless page.exclude %}
@@ -20,3 +19,5 @@ exclude: true
 {% endunless %}
 {% endfor %}
 </wrap>
+
+<p>[Pages](/pages.md)</p>
