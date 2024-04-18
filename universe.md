@@ -20,4 +20,4 @@ exclude: true
 {% endfor %}
 </wrap>
 
-<p>[Pages](/pages.md)</p>
+[Pages](/pages.md)
