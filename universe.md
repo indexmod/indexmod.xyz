@@ -1,7 +1,7 @@
 ---
 title: Indexmod universe
 permalink: universe
-layout: tech-universe
+layout: universe
 shortname: UNIVERSE
 exclude: true
 ---
