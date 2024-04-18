@@ -3,21 +3,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
 
-.rates-top {
-	font-family: 'Monaco';
-	font-size: 2em;
-	font-weight: 100;
-	-webkit-filter: grayscale(99%);
-	filter: grayscale(99%);
-}
-.rates-top:hover {
-	font-family: 'Monaco';
-	font-size: 2em;
-	font-weight: 100;
-	-webkit-filter: grayscale(0%);
-	filter: grayscale(0%);
-}
-
 body {
 	max-width: auto;
 	margin-top: 5%;
@@ -35,37 +20,6 @@ p {
 	color: white;
 }
 
-p.foot {
-	font-family: 'Monaco', serif;
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-	color: white;
-}
-
-
-p.caption-name {
-	font-family: 'Monaco', serif;
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-	color: white;
-}
-p.caption-position {
-	font-family: 'Monaco', serif;
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-	color: white;
-}
-.rate {
-	font-weight: 500;
-	color: green;
-}
-.rate:hover {
-	font-weight: 500;
-	color: red;
-}
 h1 {
 	font-family: 'Old Standard TT', serif;
 	font-size: 1,7em;
@@ -80,106 +34,7 @@ h2, h3, h4, h5, h6 {
 	line-height: 1,8em;
 	color: white;
 }
-table {
-	width: 100%;
-	font-family: 'Verdana', serif;
-	font-size: 1,6em;
-	line-height: 1,6em;
-	font-weight: 500;
-	color: white;
-	border-collapse: collapse;
-	margin: 0px 0px 0px 0px;
-}
-th, td {
-	padding: 1em;
-	text-align: left;
-	border-bottom: 1px solid white;
-	margin: 0px 0px 0px 0px;
-}
-th {
-	font-family: 'Monaco', serif;
-	font-weight: 500;
-	font-size: 1,8em;
-	color: green;
-	text-align: left;
-	height: auto;
-	vertical-align: center;
-	margin: 0px 0px 0px 0px;
-}
-td {
-	font-weight: 500;
-	height: auto;
-	vertical-align: center;
-	margin: 0px 0px 0px 0px;
-	color: white;
-}
-tr:hover {
-	background-color: #DCDCDC;
-	font-weight: 500;
-	margin: 0px 0px 0px 0px;
-}
-table.top {
-	width: 100%;
-	font-family: 'Monaco', serif;
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-	color: white;
-	border-collapse: collapse;
-	margin: 0px 0px 0px 0px;
-}
-table.top th, td {
-	padding: 10px;
-	text-align: left;
-	border-bottom: 1px solid white;
-	margin: 0px 0px 0px 0px;
-}
-table.top td {
-	font-weight: 500;
-	height: auto;
-	vertical-align: center;
-	margin: 0px 0px 0px 0px;
-	color: white;
-}
-table.top tr:hover {
-	background-color: #DCDCDC;
-	font-weight: 500;
-	margin: 0px 0px 0px 0px;
-}
-.toptable-meta {
-	font-weight: 500;
-	color: green;
-}
-.highlighter-rouge {
-	font-family: 'Monaco';
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-	color: white;
-	border: solid 1px silver;
-	background-color: #DCDCDC;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	padding: 9px 9px;
-}
-del {
-	color: #DCDCDC;
-}
-strong {
-	font-family: 'Monaco';
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 700;
-	color: white;
-}
-em {
-	font-family: 'Monaco', serif;
-	color: white;
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-}
+
 li {
 	font-family: 'Monaco';
 	font-size: 1,6em;
@@ -234,52 +89,4 @@ a:active {
 	color: #4e80d8;
 	text-decoration: none;
 	font-weight: 500;
-}
-.footnote {
-	color: #4e80d8;
-	text-decoration: none;
-	font-weight: 500;
-}
-img {
-	max-width: 100%;
-	min-width: 50%;
-	height: auto;
-	margin: 1em 1em 1em 1em;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-}
-.container {
-	width: 50px;
-}
-.container img {
-	display: block;
-	width: 100%;
-	height: auto;
-}
-* {
-	box-sizing: border-box;
-}
-.row:after {
-  content: ".";
-  display: table;
-  clear: both;
-}
-/* Create two equal columns that floats next to each other */
-
-.column {
-	float: left;
-	width: 50%;
-	padding: 10px;
-}
-
-button {
-    width: 200px;
-    height: 200px;
-    border: 1px solid white;
-    background-color: black;
-    color: white;
-    border-radius: 50%;
-    cursor: pointer;
-    outline: none;
-    transition: background-color 0.1s;
 }
