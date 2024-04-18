@@ -23,8 +23,8 @@ custom_sidebar: false
 custom_footer: false
 
 prose:
-  rooturl: 'https://indexmod.github.io/modindex/'
-  siteurl: 'https://indexmod.github.io/modindex/'
+  rooturl: 'https://indexmod.xyz'
+  siteurl: 'https://indexmod.xyz'
   relativeLinks: 'https://prose.github.io/starter/links.jsonp'
   media: '/images'
 
