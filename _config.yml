@@ -33,14 +33,12 @@ prose:
     - _config.yml
     - /_layouts
     - /_includes
-    - style-universe.scss
+    - style-uni.scss
     - style.scss
     - /assets
     - 404.md
     - universe.md
     - universe.html
-    - indexmod-curators.md
-    - indexmod-curators.html
     - README.md
     - feed.xml
     - sitemap.xml
