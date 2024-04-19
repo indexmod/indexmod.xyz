@@ -22,6 +22,9 @@ custom_head: false
 custom_sidebar: false
 custom_footer: false
 
+plugins:
+  - jekyll-auto-image
+
 prose:
   rooturl: 'https://indexmod.xyz'
   siteurl: 'https://indexmod.xyz'
