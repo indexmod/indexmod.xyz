@@ -17,7 +17,7 @@ include:
 exclude: ['indexmod-curators.html','style-universe.scss','style.scss' ]
 
 use_github_wiki: false
-use_prose_io: true
+use_prose_io: false
 custom_head: false
 custom_sidebar: false
 custom_footer: false
