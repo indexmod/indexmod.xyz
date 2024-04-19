@@ -8,6 +8,7 @@ body {
     margin: 3% 3% 0 3%;
     padding: 0;
     background: black;
+    color: white;
 }
 
 p, h1, h2, h3, h4, h5, h6, li, ul {
@@ -15,7 +16,6 @@ p, h1, h2, h3, h4, h5, h6, li, ul {
     font-size: 1.3em;
     line-height: 1.5;
     font-weight: 400;
-    color: white;
 }
 
 h1 {
@@ -34,13 +34,15 @@ a:hover {
     color: green;
 }
 
-/* Стили для мобильных устройств */
+/* Стили для мобильных устройств в режиме чтения */
 @media only screen and (max-width: 768px) {
     body {
-        margin: 5% 5% 0 5%; /* Изменены отступы для мобильных устройств */
+        margin: 5% auto; /* Центрировать содержимое */
+        padding: 0 5%; /* Добавить отступы сбоку */
     }
 
     p, h1, h2, h3, h4, h5, h6, li, ul {
-        font-size: 3vw; /* Респонсивный размер шрифта в зависимости от ширины экрана */
+        font-size: 1.4em; /* Увеличить размер шрифта */
+        line-height: 1.8; /* Увеличить интервал между строками */
     }
 }
