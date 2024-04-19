@@ -5,7 +5,7 @@ layout: docs
 exclude: true
 type: docs
 discovered: 2024
-shortname: BOT
+shortname: БОТ
 ---
 
 Вот подробная инструкция по созданию бота для отслеживания репозитория GitHub и реагирования на новые коммиты или создание новых страниц с использованием библиотеки PyGitHub для Python:

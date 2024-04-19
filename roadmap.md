@@ -5,7 +5,7 @@ layout: docs
 exclude: true
 type: docs
 discovered: 2024
-shortname: RMAP
+shortname: КАРТА
 ---
 
 
