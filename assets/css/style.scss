@@ -4,89 +4,28 @@
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
 
 body {
-	max-width: auto;
-	margin-top: 5%;
-	margin-left: 5%;
-	margin-right: 20%;
-	padding: 0;
-	background: black;
+    max-width: 100%; /* Изменено значение на 100% для адаптивности */
+    margin: 5% 5% 0 5%; /* Изменены значения отступов для лучшего выравнивания */
+    padding: 0;
+    background: black;
 }
 
-p {
-	font-family: 'Monaco', serif;
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-	color: white;
+p, h1, h2, h3, h4, h5, h6, li, ul {
+    font-family: 'Monaco', sans-serif; /* Заменен шрифт для общего текста на sans-serif */
+    font-size: 1.2em; /* Уменьшен размер шрифта для лучшей читаемости */
+    line-height: 1.5; /* Уменьшен интервал между строками */
+    font-weight: 400; /* Уменьшена жирность текста для лучшей читаемости */
+    color: white;
 }
 
-h1 {
-	font-family: 'Old Standard TT', serif;
-	font-size: 1,7em;
-	font-weight: 900;
-	line-height: 1em;
-	color: white;
-}
-h2, h3, h4, h5, h6 {
-	font-family: 'Monaco';
-	font-size: 1,6em;
-	font-weight: 500;
-	line-height: 1,8em;
-	color: white;
+a.one:link, a.one:visited, a.one:hover,
+a:link, a:visited, a:hover, a:active {
+    color: #4e80d8;
+    text-decoration: none;
+    font-weight: 500;
 }
 
-li {
-	font-family: 'Monaco';
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-	color: white;
-}
-ul {
-	font-family: 'Monaco', serif;
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-	color: white;
-}
-a.one:link {
-	color: #4e80d8;
-	font-family: 'Monaco';
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-}
-a.one:visited {
-	color: violet;
-	font-family: 'Monaco';
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-}
-a.one:hover {
-	color: green;
-	font-family: 'Monaco';
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-}
-a:link {
-	color: #4e80d8;
-	text-decoration: none;
-	font-weight: 500;
-}
-a:visited {
-	color: violet;
-	text-decoration: none;
-	font-weight: 500;
-}
+a.one:hover,
 a:hover {
-	color: green;
-	text-decoration: none;
-	font-weight: 500;
-}
-a:active {
-	color: #4e80d8;
-	text-decoration: none;
-	font-weight: 500;
+    color: green; /* Изменен цвет ссылок при наведении */
 }
