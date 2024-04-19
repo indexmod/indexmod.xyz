@@ -3,18 +3,22 @@
 
 
 body {
-    max-width: 100%; /* Изменено значение на 100% для адаптивности */
-    margin: 5% 5% 0 5%; /* Изменены значения отступов для лучшего выравнивания */
+    max-width: 100%;
+    margin: 3% 3% 0 3%; /* Уменьшены отступы для мобильных устройств */
     padding: 0;
     background: black;
 }
 
 p, h1, h2, h3, h4, h5, h6, li, ul {
-    font-family: 'Monaco', sans-serif; /* Заменен шрифт для общего текста на sans-serif */
-    font-size: 1.2em; /* Уменьшен размер шрифта для лучшей читаемости */
-    line-height: 1.5; /* Уменьшен интервал между строками */
-    font-weight: 400; /* Уменьшена жирность текста для лучшей читаемости */
+    font-family: 'Monaco', sans-serif;
+    font-size: 1.3em; /* Увеличен размер шрифта для лучшей читаемости */
+    line-height: 1.5;
+    font-weight: 400;
     color: white;
+}
+
+h1 {
+    font-size: 1.7em; /* Увеличен размер шрифта заголовка для выделения */
 }
 
 a.one:link, a.one:visited, a.one:hover,
@@ -26,5 +30,5 @@ a:link, a:visited, a:hover, a:active {
 
 a.one:hover,
 a:hover {
-    color: green; /* Изменен цвет ссылок при наведении */
+    color: green;
 }
