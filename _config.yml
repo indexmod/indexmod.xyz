@@ -10,7 +10,7 @@ show_title: false
 show_description: false
 git_branch: master
 
-theme: jekyll-serif-theme
+theme: jekyll-theme-minimal
 
 include:
 
