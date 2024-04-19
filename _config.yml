@@ -25,6 +25,8 @@ custom_footer: false
 plugins:
   - jekyll-auto-image
   - jekyll-remote-image
+  - jekyll-github-metadata
+  - jekyll-remote-theme
 
 prose:
   rooturl: 'https://indexmod.xyz'

@@ -40,6 +40,7 @@ shortname: БОТ
      ```
 
    - Создайте функцию для отслеживания новых коммитов:
+   
      ```python
      def monitor_commits(repo):
          while True:
