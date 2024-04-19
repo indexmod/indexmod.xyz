@@ -2,6 +2,7 @@
 ---
 
 
+/* Общие стили */
 body {
     max-width: 100%;
     margin: 3% 3% 0 3%;
@@ -11,7 +12,7 @@ body {
 
 p, h1, h2, h3, h4, h5, h6, li, ul {
     font-family: 'Monaco', sans-serif;
-    font-size: 1.3em; /* Исправлена ошибка с разделителем размера шрифта */
+    font-size: 1.3em;
     line-height: 1.5;
     font-weight: 400;
     color: white;
@@ -31,4 +32,15 @@ a:link, a:visited, a:hover, a:active {
 a.one:hover,
 a:hover {
     color: green;
+}
+
+/* Стили для мобильных устройств */
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 5% 5% 0 5%; /* Изменены отступы для мобильных устройств */
+    }
+
+    p, h1, h2, h3, h4, h5, h6, li, ul {
+        font-size: 1.1em; /* Уменьшен размер шрифта для мобильных устройств */
+    }
 }
