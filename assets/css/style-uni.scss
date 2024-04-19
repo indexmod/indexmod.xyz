@@ -2,122 +2,45 @@
 ---
 
 html {
-	height: 100%;
-	background-color: black; /* Черный цвет фона */
+    height: 100%;
+    background-color: black;
 }
 
 body {
-	max-width: auto;
-	margin-top: 5%;
-	margin-left: 5%;
-	margin-right: 20%;
-	padding: 0;
-	background: black;
+    margin: 5%;
+    padding: 0;
+    background: black;
 }
 
-p {
-	font-family: 'Monaco', serif;
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-	color: white;
+p, h1, h2, h3, h4, h5, h6, li, ul {
+    font-family: 'Monaco', serif;
+    font-size: 1.6em; /* Заменена запятая на точку */
+    line-height: 1.8em;
+    font-weight: 500;
+    color: white;
 }
 
 h1 {
-	font-family: 'Old Standard TT', serif;
-	font-size: 1,7em;
-	font-weight: 900;
-	line-height: 1em;
-	color: white;
-}
-h2, h3, h4, h5, h6 {
-	font-family: 'Monaco';
-	font-size: 1,6em;
-	font-weight: 500;
-	line-height: 1,8em;
-	color: white;
-}
-
-li {
-	font-family: 'Monaco';
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-	color: white;
-}
-ul {
-	font-family: 'Monaco', serif;
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-	color: white;
-}
-a.one:link {
-	color: #4e80d8;
-	font-family: 'Monaco';
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-}
-a.one:visited {
-	color: violet;
-	font-family: 'Monaco';
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-}
-a.one:hover {
-	color: green;
-	font-family: 'Monaco';
-	font-size: 1,6em;
-	line-height: 1,8em;
-	font-weight: 500;
-}
-a:link {
-	color: #4e80d8;
-	text-decoration: none;
-	font-weight: 500;
-}
-a:visited {
-	color: violet;
-	text-decoration: none;
-	font-weight: 500;
-}
-a:hover {
-	color: green;
-	text-decoration: none;
-	font-weight: 500;
-}
-a:active {
-	color: #4e80d8;
-	text-decoration: none;
-	font-weight: 500;
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.7em;
+    font-weight: 900;
+    line-height: 1em;
 }
 
 figure {
-  float: left;
-  width: 20%;
-  text-align: center;
-  font-style: inherit;
-  font-size: inherit;
-  border: none;
-  margin: 1px;
-  padding: 1px;
+    width: 30%; /* Изменена ширина на проценты */
+    text-align: center;
+    margin: 10px; /* Добавлены отступы */
 }
 
-a:link {
-	text-decoration: none;
+a {
+    color: #4e80d8;
+    text-decoration: none;
 }
 
-a:visited {
-	text-decoration: none;
-}
 a:hover {
-	color: green;
-	text-decoration: underline;
-}
-a:active {
-	text-decoration: none;
+    color: green;
+    text-decoration: underline;
 }
 
 button {
