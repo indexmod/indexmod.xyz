@@ -2,6 +2,7 @@
 ---
 
 
+
 html {
     height: 100%;
     background-color: black;
@@ -11,11 +12,12 @@ body {
     margin: 5%;
     padding: 0;
     background: black;
+    max-width: 100%;
 }
 
 p, h1, h2, h3, h4, h5, h6, li, ul {
     font-family: 'Monaco', serif;
-    font-size: 1.6em; /* Заменена запятая на точку */
+    font-size: 1.6em;
     line-height: 1.8em;
     font-weight: 500;
     color: white;
@@ -29,9 +31,9 @@ h1 {
 }
 
 figure {
-    width: 30%; /* Изменена ширина на проценты */
+    width: 30%;
     text-align: center;
-    margin: 10px; /* Добавлены отступы */
+    margin: 10px;
 }
 
 a {
@@ -54,4 +56,21 @@ button {
     cursor: pointer;
     outline: none;
     transition: background-color 10s;
+}
+
+/* Респонсивные стили для всех типов экранов */
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 5% auto;
+        padding: 0 5%;
+    }
+
+    p, h1, h2, h3, h4, h5, h6, li, ul {
+        font-size: 1.4em;
+        line-height: 1.8;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
 }
