@@ -5,10 +5,18 @@
         border-radius: 50%;
         background: radial-gradient(circle at top, #fff 10%, #ccc 80%, #888 100%);
         box-shadow: inset 0 0 10px rgba(0,0,0,0.2), 0 0 10px rgba(0,0,0,0.2);
-        filter: drop-shadow(0 0 0.1em rgba(255, 255, 0, 0.5));
+        filter: drop-shadow(0 0 0.1em rgba(255, 192, 203, 0.7));
+        animation: pulse 1s infinite alternate;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(1.01);
+        }
     }
 </style>
 
-<body>
-    <div class="sphere"></div>
-</body>
+<div class="sphere"></div>
