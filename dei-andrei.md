@@ -18,4 +18,4 @@ Embracing transhumanist ideals, Deinichenko has collaborated with scientists on 
 
 Looking ahead, Deinichenko is driven by a desire to challenge societal perceptions surrounding death and dying. He aims to engage audiences through installation videos, advocating for a new scientific paradigm centered on life extension and the pursuit of immortality.
 
-![1](2)
+![](https://cdn.discordapp.com/attachments/1231223023017656402/1233311232791023737/andriidei_smart_casual_black_and_white_fa9f3b9f-302a-405e-9abd-2a4e2c4b0d93.png?ex=662ca217&is=662b5097&hm=ee700b11d80f699895f52f4a14f057e94b0cd7f4dc72de7e0afd6ed567ba0166&)
