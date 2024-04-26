@@ -1,5 +1,6 @@
 ---
 title: Pages
+permalink: pages
 layout: cover
 exclude: true
 published: true

@@ -10,6 +10,8 @@ show_title: false
 show_description: false
 git_branch: master
 
+permalink: /:title
+
 theme: jekyll-theme-minimal
 
 include:
