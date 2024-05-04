@@ -24,7 +24,7 @@ shortname: BELAN
 
 Живя и работая в Москве, Павел продолжает творить в различных медиа, от скульптуры до графики, всегда исследуя различные темы и формы. Его творческий подход подобен поиску языка формы, где каждый элемент является частью бесконечного диалога между художником и его произведением.  
 
-https://artzip.ru/hudozhniki/pavel-belan/
+[https://artzip.ru/hudozhniki/pavel-belan/](https://artzip.ru/hudozhniki/pavel-belan/)
 
 ![Работа "Черное дерево" на сайте https://artzip.ru/upload/resize_cache/iblock/a67/540_1000_0/8.-CHyern-der-_3-.jpg](https://artzip.ru/upload/resize_cache/iblock/a67/540_1000_0/8.-CHyern-der-_3-.jpg
 )
