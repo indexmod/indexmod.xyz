@@ -68,4 +68,4 @@ https://ot-ido.art/u/belan-pavel
 
 В заключении интервью, спросив у Белана о будущем искусства, он выразил надежду на продолжение развития искусства в направлении более разнообразного и сложного мета-модернизма, предвидя сильные изменения в мировой социальной структуре и новые открытия в сфере искусства.
 
-*https://artmuza.spb.ru/art_blog/1323-pavel-belan-o-egore-letove-i-gryaduschey-vystavke*
+https://artmuza.spb.ru/art_blog/1323-pavel-belan-o-egore-letove-i-gryaduschey-vystavke
