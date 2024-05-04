@@ -13,6 +13,8 @@ shortname: BELAN
 
 ![Павел Белан на сайте https://oms.ru/images/authors/Belan/b500.png](https://oms.ru/images/authors/Belan/b500.png)
 
+Фото: Павел Белан
+
 
 ## Artzip
 
@@ -26,6 +28,9 @@ https://artzip.ru/hudozhniki/pavel-belan/
 
 ![Работа "Черное дерево" на сайте https://artzip.ru/upload/resize_cache/iblock/a67/540_1000_0/8.-CHyern-der-_3-.jpg](https://artzip.ru/upload/resize_cache/iblock/a67/540_1000_0/8.-CHyern-der-_3-.jpg
 )
+
+Фото: Черное дерево, Павел Белан
+
 
 
 ## Объединение московских скульпторов
