@@ -18,8 +18,13 @@ p, h3, h4, h5, h6, li, ul {
     font-weight: 400;
 }
 
+em {
+    color: green;
+}
+
 h1, h2 {
     font-size: 1.7em;
+    font-family: Georgia, serif;
 }
 
 a.one:link, a.one:visited, a.one:hover,
