@@ -45,7 +45,7 @@ shortname: BELAN
 
 Онлайн-выставка Павла Белана приглашает зрителей в захватывающее путешествие по его уникальному миру творчества, оставаясь верным своему художественному видению и стремясь к новым высотам в искусстве.
 
-https://oms.ru/authors/belan-pavel-vladimirovich
+[https://oms.ru/authors/belan-pavel-vladimirovich](https://oms.ru/authors/belan-pavel-vladimirovich)
 
 
 ## От и до. Искусство без посредников
@@ -54,7 +54,7 @@ https://oms.ru/authors/belan-pavel-vladimirovich
 
 Недавние выставки: "День города Москвы" 2017, "Красный, Ржавый, Жжённый" в музее Анны Ахматовой, Санкт-Петербург, 2018, "Прыг-скок" в Музее современного искусства "Артмуза", Санкт-Петербург, 2019, "Структурный хаос", онлайн выставка, 2020, "Дис-сити" в Доме культуры Крупской, Санкт-Петербург, 2020.
 
-https://ot-ido.art/u/belan-pavel
+[https://ot-ido.art/u/belan-pavel](https://ot-ido.art/u/belan-pavel)
 
 ## Артмуза
 
@@ -68,7 +68,7 @@ https://ot-ido.art/u/belan-pavel
 
 В заключении интервью, спросив у Белана о будущем искусства, он выразил надежду на продолжение развития искусства в направлении более разнообразного и сложного мета-модернизма, предвидя сильные изменения в мировой социальной структуре и новые открытия в сфере искусства.
 
-https://artmuza.spb.ru/art_blog/1323-pavel-belan-o-egore-letove-i-gryaduschey-vystavke
+[https://artmuza.spb.ru/art_blog/1323-pavel-belan-o-egore-letove-i-gryaduschey-vystavke](https://artmuza.spb.ru/art_blog/1323-pavel-belan-o-egore-letove-i-gryaduschey-vystavke)
 
 ## YandexGPT (краткий пересказ статьи от нейросети)
 
@@ -84,4 +84,4 @@ https://artmuza.spb.ru/art_blog/1323-pavel-belan-o-egore-letove-i-gryaduschey-vy
 
 • Его творческий подход подобен поиску языка формы, где каждый элемент является частью бесконечного диалога между художником и его произведением.
 
-https://300.ya.ru/CRp3K6Y7
+[https://300.ya.ru/CRp3K6Y7](https://300.ya.ru/CRp3K6Y7)
