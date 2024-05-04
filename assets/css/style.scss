@@ -11,14 +11,14 @@ body {
     color: white;
 }
 
-p, h1, h2, h3, h4, h5, h6, li, ul {
+p, h3, h4, h5, h6, li, ul {
     font-family: 'Monaco', sans-serif;
     font-size: 1.3em;
     line-height: 1.5;
     font-weight: 400;
 }
 
-h1 {
+h1, h2 {
     font-size: 1.7em;
 }
 
@@ -40,6 +40,8 @@ a:hover {
         margin: 5% auto; /* Центрировать содержимое */
         padding: 0 5%; /* Добавить отступы сбоку */
     }
+
+
 
     p, h1, h2, h3, h4, h5, h6, li, ul {
         font-size: 1.4em; /* Увеличить размер шрифта */
