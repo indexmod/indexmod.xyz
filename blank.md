@@ -2,7 +2,7 @@
 layout: default
 title: Работа 001
 permalink: blank
-creation_date: '2024-08-21T09:52:00Z'
+creation_date: '2024-21-08T00:00:00Z'
 starting_price: 0.01
 exclude: false
 type: work
@@ -14,7 +14,7 @@ shortname: BELAN
 <p>Описание моей картины: Это произведение искусства было создано с особой техникой и вдохновением.</p>
 
 <!-- Элемент, где будет отображаться стоимость -->
-<p><strong>Текущая стоимость:</strong> <span id="price"></span></p>
+<p>{% include sphere.html %}<strong>Текущая стоимость:</strong> <span id="price"></span></p>
 
 <!-- Элемент для передачи данных в JavaScript через data-* атрибуты -->
 <div id="art-data"
