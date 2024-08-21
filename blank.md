@@ -40,5 +40,5 @@ shortname: W001
   updatePrice();
 
   // И продолжаем обновлять каждые 1000 миллисекунд (1 секунда)
-  setInterval(updatePrice, 1000);
+  setInterval(updatePrice, 3000);
 </script>
