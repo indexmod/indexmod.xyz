@@ -9,8 +9,6 @@ type: work
 shortname: BELAN
 ---
 
-# Моя Картина
-
 ![Фото картины](blank-bifold-white-card-standing-wooden-desk-outdoor-with-floral-shadow-blurred-nature-background.jpg)
 
 <p>Описание моей картины: Это произведение искусства было создано с особой техникой и вдохновением.</p>
