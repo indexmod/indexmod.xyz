@@ -11,7 +11,7 @@ shortname: W001
 
 ![Фото картины](blank-bifold-white-card-standing-wooden-desk-outdoor-with-floral-shadow-blurred-nature-background.jpg)
 
-<p>{% include sphere.html %} Описание моей картины: Это произведение искусства было создано с особой техникой и вдохновением.</p>
+<p>Описание картины: Произведение было создано с особой техникой старения под открытым небом.</p>
 
 <!-- Элемент, где будет отображаться стоимость -->
 <p><strong>Текущая стоимость:</strong> <span id="price"></span></p>
