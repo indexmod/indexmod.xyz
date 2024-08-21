@@ -1,12 +1,12 @@
 ---
-layout: default
-title: Работа 001
+layout: work
+title: Work 001
 permalink: blank
-creation_date: '2024-21-08T00:00:00Z'
+creation_date: '2024-21-08T01:01:01Z'
 starting_price: 0.01
 exclude: false
 type: work
-shortname: BELAN
+shortname: W001
 ---
 
 ![Фото картины](blank-bifold-white-card-standing-wooden-desk-outdoor-with-floral-shadow-blurred-nature-background.jpg)
@@ -14,7 +14,7 @@ shortname: BELAN
 <p>Описание моей картины: Это произведение искусства было создано с особой техникой и вдохновением.</p>
 
 <!-- Элемент, где будет отображаться стоимость -->
-<p>{% include sphere.html %}<strong>Текущая стоимость:</strong> <span id="price"></span></p>
+<p><strong>{% include sphere.html %} Текущая стоимость:</strong> <span id="price"></span></p>
 
 <!-- Элемент для передачи данных в JavaScript через data-* атрибуты -->
 <div id="art-data"
