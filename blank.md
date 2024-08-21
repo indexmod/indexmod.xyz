@@ -2,7 +2,7 @@
 layout: default
 title: Моя Картина
 permalink: blank
-creation_date: '2024-01-01T00:00:00Z'
+creation_date: '2024-08-21T09:52:00Z'
 starting_price: 0.01
 exclude: false
 type: work
