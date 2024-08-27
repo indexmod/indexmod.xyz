@@ -11,6 +11,8 @@ shortname: W001
 
 ![Фото картины](blank-bifold-white-card-standing-wooden-desk-outdoor-with-floral-shadow-blurred-nature-background.jpg)
 
+https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/POL_2007_08_04_Jaroslawiec_zachodniopomorskie_02.JPG/1200px-POL_2007_08_04_Jaroslawiec_zachodniopomorskie_02.JPG
+
 <p>Описание картины: Произведение было создано с особой техникой старения под открытым небом.</p>
 
 <!-- Элемент, где будет отображаться стоимость -->
