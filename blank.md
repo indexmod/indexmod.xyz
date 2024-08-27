@@ -2,7 +2,7 @@
 layout: work
 title: Work 001
 permalink: blank
-creation_date: '2024-08-27T16:55+3:00Z'
+creation_date: '2024-08-27T16:00:00Z'
 starting_price: 100.00
 exclude: false
 type: work
