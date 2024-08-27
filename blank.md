@@ -11,7 +11,7 @@ shortname: W001
 
 ![Фото картины](blank-bifold-white-card-standing-wooden-desk-outdoor-with-floral-shadow-blurred-nature-background.jpg)
 
-https://img.gazeta.ru/files3/681/16330681/shutterstock_736023025-pic_32ratio_900x600-900x600-13497.jpg
+![Гиф](https://i.gifer.com/yH.gif)
 
 
 
