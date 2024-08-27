@@ -9,12 +9,17 @@
     const now = new Date();
     const secondsElapsed = Math.floor((now - creationDate) / 1000);
     const currentPrice = startingPrice + (secondsElapsed * 0.01);
-    document.getElementById('price').innerText = `$${currentPrice.toFixed(2)}`;
+    const formattedPrice = `$${currentPrice.toFixed(2)}`;
+
+    // Обновление всех элементов с динамической ценой
+    document.getElementById('price').innerText = formattedPrice; // В основном блоке
+    document.title = `{{ page.shortname }} ${formattedPrice}`; // В title
+    document.querySelectorAll('#footer-price').forEach(el => el.innerText = formattedPrice); // В футере
   }
 
   // Обновляем цену при загрузке страницы
   updatePrice();
 
-  // И продолжаем обновлять каждые 1000 миллисекунд (1 секунда)
+  // И продолжаем обновлять каждые 3000 миллисекунд (3 секунды)
   setInterval(updatePrice, 3000);
 </script>
