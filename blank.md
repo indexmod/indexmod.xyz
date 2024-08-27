@@ -11,7 +11,8 @@ shortname: W001
 
 ![Фото картины](blank-bifold-white-card-standing-wooden-desk-outdoor-with-floral-shadow-blurred-nature-background.jpg)
 
-![Sunset in Jarosławiec](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/POL_2007_08_04_Jaroslawiec_zachodniopomorskie_02.JPG/1200px-POL_2007_08_04_Jaroslawiec_zachodniopomorskie_02.JPG)
+https://img.gazeta.ru/files3/681/16330681/shutterstock_736023025-pic_32ratio_900x600-900x600-13497.jpg
+
 
 
 <p>Описание картины: Произведение было создано с особой техникой старения под открытым небом.</p>
