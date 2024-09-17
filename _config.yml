@@ -2,7 +2,7 @@
 
 title: Indexmod
 timezone: UTC
-description: is a fashion and art chainpædia
+description: is a fashion and art *pædia
 
 show_sidebar: false
 show_downloads: false
@@ -10,7 +10,6 @@ show_title: false
 show_description: false
 git_branch: master
 
-permalink: /:title
 
 theme: jekyll-theme-minimal
 
@@ -31,8 +30,7 @@ plugins:
   - jekyll-remote-theme
 
 prose:
-  rooturl: 'https://indexmod.xyz'
-  siteurl: 'https://indexmod.xyz'
+
   relativeLinks: 'https://prose.github.io/starter/links.jsonp'
   media: '/images'
 
